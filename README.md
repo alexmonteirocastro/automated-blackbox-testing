@@ -8,7 +8,7 @@ To provide an automated test suite for a black-box system, designed to calculate
 
 ## System under test
 
-They tests will be running on [this](http://adam.goucher.ca/parkcalc/) system. 
+The tests will be running on [this](http://adam.goucher.ca/parkcalc/) system. 
 
 ## Test planning
 
