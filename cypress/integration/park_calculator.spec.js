@@ -24,7 +24,7 @@ const lotOptions = [{
   }
 ]
 
-context('The Paarking Calculator', () => {
+context('The Parking Calculator', () => {
   before(() => {
     cy.visit('/')
   });
