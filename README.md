@@ -1,4 +1,4 @@
-# Cypress Demo Exercise 
+# Automated Black Box Testing Demo Exercise 
 
-__Writing a few automated tests using Cypress.io__
+__Writing a few automated tests forn testing a blackbox system__
 
