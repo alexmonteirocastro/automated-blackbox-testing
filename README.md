@@ -10,6 +10,10 @@ To provide an automated test suite for a black-box system, designed to calculate
 
 The tests will be running on [this](http://adam.goucher.ca/parkcalc/) system. 
 
+## Test Automation framework
+
+The test automation framework of choice was [Cypress.io](https://www.cypress.io/)
+
 ## Test planning
 
 Upon a quick exploratory test, these are the main aspects of the application to test.
@@ -68,3 +72,9 @@ There are several improvements for this automated test suit:
 * Implement a plugin that can generate both test and coverage reports
 * Integrate the automated tests into a CI pipeline (such as Jenkins, TravisCI, CircleCI, bamboo, etc...)
 * The current automated test suite does not run tests in different browsers or devices. It would be a good idea to implement a functionality that would allow to run tests in different browsers and in different emulated devices. 
+
+## Other flaws of this test approach
+
+* The manual exploratory test revealed that the input fields accept invalid data such as strrings and other formats that not _hh:mm_ or _MM/DD/YYYY_ . Unfortuantely it was not possible for me to cover undersired formats in inputs. 
+* There is unsufficent coverage for testing duration calculation between AM and PM format times. 
+* It would have been good to have as a test specification, the pricing for each of the parking lot options, so we could have conducted somne data driven testing.
